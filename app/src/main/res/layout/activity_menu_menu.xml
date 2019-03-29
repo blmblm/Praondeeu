@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tmenu">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+
+            android:gravity="center"
+            android:text="     ANUNCIE AQUI! "
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:gravity="left" />
+
+        <ImageView
+            android:id="@+id/imageV1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/sym_call_missed" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/baile"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/baile"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Baile"
+            android:textColor="#00008B"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/samba"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/samba"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Samba"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/balada"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/balada"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Balada"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cinema"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/cinema"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Cinema"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/esporte"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/futebol"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Esporte"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/feira"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/feira"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:text="Feira/Evento"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/passeio"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/passeio"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Turismo"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/parque"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/parque"
+
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Parque"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gastronomia"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/restaurante"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Gastronomia"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/show"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/show"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Show"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/teatro"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/teatro"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:text="Teatro"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/beleza"
+            app.civ_border_collor="#FF0000"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/beleza"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Beleza"
+            android:textColor="#00008B"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
